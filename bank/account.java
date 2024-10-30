@@ -65,4 +65,9 @@ public class account {
         balance += temp;
         System.out.println("Deposit successfully!");
     }
+
+    public String getAccountInfo(){
+        return "Name: " + name + "\n" + "ID: " + id + "\n" + "Balance: " + balance + " VND";
+    }
 }
+
